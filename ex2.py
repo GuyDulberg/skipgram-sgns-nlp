@@ -10,11 +10,7 @@ from nltk.corpus import stopwords
 #nltk.download('stopwords')
 
 #static functions
-def who_am_i():  # this is not a class method
-    """Returns a dictionary with your name, id number and email. keys=['name', 'id','email']
-        Make sure you return your own info!
-    """
-    return {'name': 'Guy Dulberg', 'id': '206562977', 'email': 'dulbergg@post.bgu.ac.il'}
+
 
 def helper_normalize_sentence(sentence):
     clean_sentence = re.sub(r"[^0-9A-Za-z\s]", "", sentence)
@@ -397,4 +393,5 @@ class SkipGram:
 
 
         #return False
+
 
